@@ -14,9 +14,9 @@ RUN bash install.sh
 VOLUME /data
 #暴露配置文件
 VOLUME /etc/qBittorrent
+VOLUME /downloads
+#暴露端口
 EXPOSE 18080
-#VOLUME /usr/local/nginx/conf/cdn
-#暴露日志文件夹
-#VOLUME /usr/local/nginx/logs
-#运行crontab和nginx
+EXPOSE 7881
+#运行
 CMD ["/usr/sbin/run.sh"]
