@@ -5,7 +5,7 @@
 if [ -f "/etc/qBittorrent/config/qBittorrent.conf" ];then
 	echo -e "y" | qbittorrent-nox --profile=/etc
 else
-	curl -o /etc/qBittorrent/config.tar.gz https://github.com/helloxz/qbittorrent/raw/main/config.tar.gz
+	curl -kLo /etc/qBittorrent/config.tar.gz https://github.com/helloxz/qbittorrent/raw/main/config.tar.gz
 	cd /etc/qBittorrent/ && tar -xvf /etc/qBittorrent/config.tar.gz
 	rm -rf /etc/qBittorrent/config.tar.gz
 	echo -e "y" | qbittorrent-nox --profile=/etc
