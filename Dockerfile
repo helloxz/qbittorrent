@@ -14,7 +14,7 @@ RUN bash install.sh
 VOLUME /data
 #暴露配置文件
 VOLUME /etc/qBittorrent
-EXPOSE 8080
+EXPOSE 18080
 #VOLUME /usr/local/nginx/conf/cdn
 #暴露日志文件夹
 #VOLUME /usr/local/nginx/logs
