@@ -4,7 +4,7 @@
 #####	update:2021/03/19
 
 apt-get update
-apt install -y qbittorrent-nox
+apt install -y qbittorrent-nox libgeoip-dev
 rm -rf /var/lib/apt/lists/*
 
 chmod +x /usr/sbin/run.sh
