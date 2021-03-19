@@ -7,7 +7,7 @@ apt-get update
 apt install -y qbittorrent-nox
 rm -rf /var/lib/apt/lists/*
 
-
+chmod +x /usr/sbin/run.sh
 
 #qbittorrent-nox --profile=/etc
 #echo -e "y" | qbittorrent-nox --profile=/etc/qbittorrent
