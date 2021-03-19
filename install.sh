@@ -6,6 +6,7 @@
 apt-get update
 apt install -y qbittorrent-nox libgeoip-dev curl procps
 rm -rf /var/lib/apt/lists/*
+mkdir -p /etc/qBittorrent
 mkdir -p /downloads
 
 chmod +x /usr/sbin/run.sh
