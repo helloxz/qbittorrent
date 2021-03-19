@@ -4,7 +4,7 @@
 #####	update:2021/03/19
 
 apt-get update
-apt install -y qbittorrent-nox libgeoip-dev curl
+apt install -y qbittorrent-nox libgeoip-dev curl procps
 rm -rf /var/lib/apt/lists/*
 mkdir -p /downloads
 
