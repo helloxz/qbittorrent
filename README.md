@@ -10,7 +10,7 @@ qBittorrent是一个跨平台的自由BitTorrent客户端，其图形用户界�
 
 ```bash
 #克隆此项目
-git clone https://github.com/helloxz/qbittorrent.git
+git clone https://github.com/comdotwww/qbittorrent.git
 #进入项目
 cd qbittorrent
 #构建docker镜像
@@ -32,7 +32,7 @@ docker run -d \
   -v /data/qbittorrent/config:/etc/qBittorrent \
   -v /data/qbittorrent/downloads:/downloads \
   --restart unless-stopped \
-  helloz/qbittorrent
+  comdotwww/qbittorrent:latest
 ```
 
 * `7881`：用于传入连接的端口，TCP/UDP都需要映射，且主机端口和容器端口必须一致，否则无法下载和上传
