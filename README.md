@@ -32,7 +32,7 @@ docker run -d \
 
 ## 运行
 
-不想自行构建的，可通过xiaoz构建好的镜像直接运行：
+不想自行构建的，可通过comdotwww构建好的镜像直接运行：
 ```bash
 docker run -d \
   --name=qbittorrent \
@@ -70,7 +70,7 @@ docker run -d \
 
 
 
-## 联系我
+## 源作者联系方式
 
 * Blog：https://www.xiaoz.me/
 * QQ：337003006
