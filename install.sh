@@ -4,7 +4,7 @@
 #####	update:2021/03/19
 
 apt-get update
-apt install -y qbittorrent-nox curl
+apt install -y qbittorrent-nox curl binutils
 rm -rf /var/lib/apt/lists/*
 #创建存储配置目录
 mkdir -p /etc/qBittorrent
